@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Jiahui Huang's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Jiahui Huang is currently a bachelor in USTC (University of Science and Technology of China)">
+  <meta name="keywords" content="Jiahui Huang, USTC, Data Privacy">
+  <meta name="author" content="Jiahui Huang" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.png">
+
+
+</head>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <!--<h3><b>YUNHE</b></h3> -->
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#education" class="w3-bar-item w3-button">Education</a>
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    <a href="#blogs" class="w3-bar-item w3-button">Blogs</a>
+    <a href="#courses" class="w3-bar-item w3-button">Courses</a>
+    <a href="#ta" class="w3-bar-item w3-button">TA</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">JIAHUI</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 30%;max-width: 320px" alt="profile photo" src="https://huangjiahui.w3spaces.com/hjh_profile.jpg?bypass-cache=1628825253">
+      <h1>Jiahui Huang</h1>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+          I am currently an undergraduate at <a href="https://sgy.ustc.edu.cn/">the School of the Gifted Young</a>, <a href="https://ustc.edu.cn/"> USTC</a>, where I major in <a href="https://eeis.ustc.edu.cn/"> Electronic Information Engineering</a> and will continue my study in <a href="https://cs.ustc.edu.cn"> Computer Science department</a>.
+          My interests lie in data privacy, federated learning and fairness of machine learning. You can find me via hjh233@mail.ustc.edu.cn.
+        </p>
+        <!--
+        <p class="w3-center">
+          <a href="hjh233@mail.ustc.edu.cn">Email</a> &nbsp/&nbsp
+          <a href="https://www.zhihu.com/people/YunheWang"> Zhi Hu </a> &nbsp/&nbsp
+          <a href="https://dblp.org/pid/63/8217-1.html"> DBLP </a>
+        </p>
+        -->
+        </tbody></table>
+  </div>
+
+<!-- The News Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="education">
+   <h2>Education</h2>
+      <p><li> 09/2018 -- Present, University of Science and Technology of China.</li></p>
+      <p><li> 09/2015 -- 06/2018, No.1 Middle School Affiliated to Central China Normal University.</li></p>
+      
+
+  </div>
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2>Projects</h2>
+    <p class="w3-justify">
+        Privacy is an important issue when one wants to make use of data that involves individuals' sensitive information. 
+        Research on protecting the privacy of individuals and the confidentiality of data has received contributions from many field, including computer science, statistics, economics and social science.
+        Here we give two examples where privacy-preserving method is used to prevent information leakage.
+    </p>
+
+        <h4><li>K-anonymity Implementation via Samarati and Mondrian</li></h4>
+        <p class="w3-justify">
+        <a style="color: #0040ff" href="https://github.com/Hjh233/K-anonymity">Github Project</a> | <a style="color: #0040ff" href="https://github.com/Hjh233/K-anonymity/blob/main/K-anonymity-report.pdf">Report</a>
+        </p>
+        <p class="w3-justify">
+        K-anonymity is a property possessed by certain anonymized data. 
+        The concept of k-anonymity was first introduced by Latanya Sweeney and Pierangela Samarati in a paper published in 1998 
+        as an attempt to solve the problem: "Given person-specific field-structured data, produce a release of the data with scientific guarantees that the individuals who are the subjects of the data cannot be re-identified while the data remain practically useful." 
+        A release of data is said to have the k-anonymity property if the information for each person contained in the release cannot be distinguished from at least k - 1 individuals whose information also appear in the release
+        (Cited from <a href="https://en.wikipedia.org/wiki/K-anonymity"> Wikipedia</a>). 
+        Here we implement k-anonymity via two algorithms: Samarati and Mondian and have further discussions about what difference does it make with different parameters, e.g., k and MaxSup.
+        What is more, we make some refinement on Samarati so that we have the output with smaller loss metric.
+        </p> 
+
+
+
+  </div>
+  
+  <!-- The Talks Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="blogs">
+    <h2>Blogs</h2>
+      <p><li> K-anonymity.</li></p>
+      <p><li> DPSGD.</li></p>
+  </div>
+
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="courses">
+    <h2>Courses</h2>
+      <p class="w3-left-align" style="line-height:200%">
+        Here several experiment implementations of relevant courses are given below, 
+        e.g., Computer Networks, Digital Signal Processing, Digital Communications and Machine Learning.
+      </p>
+    <!-- <h4> Codes and Reports:</h4> -->
+
+    <ol>
+      
+      <p>
+      <li><strong>Digital Signal Processing (006187)</strong>
+      <br>
+      Here we have the codes and screenshots of three fundamental experiments and one project (equiripple filter optimal design with the Remez Algorithm) 
+      of Digital Signal Processing co-lectured by <a href="http://dsxt.ustc.edu.cn/zj_js.asp?zzid=48"> Wei Guo</a> 
+      and <a href="https://eeis.ustc.edu.cn/2011/0316/c2615a19327/page.htm"> Yin Huarui</a>.
+      <br>
+      <a style="color: #0040ff" href="https://github.com/Hjh233/USTC_EE/blob/main/DSP.zip">Codes and screenshots</a>
+      </p>
+
+      <p>
+      <li><strong>Computer Networks (210060)</strong>
+      <br>
+      Here we have the codes and screenshots of four fundamental experiments of Computer Networks lectured by <a href="http://staff.ustc.edu.cn/~hclu/"> Lu Hancheng</a>.
+      <br>
+      <a style="color: #0040ff" href="https://github.com/Hjh233/USTC_EE/blob/main/Computer%20Networks.zip">Codes and screenshots</a>
+      </p>
+
+      <p>
+      <li><strong>Electronic Technology Experiment I (210073)</strong>
+      <br>
+      Here we give the source files and reports of six experiments of the course.
+      <br>
+      <a style="color: #0040ff" href="https://github.com/Hjh233/USTC_EE/blob/main/Electronic%20Experiments.zip">Source files and reports</a>
+      </p>
+
+      <p>
+      <li><strong>Digital Communications (006202)</strong>
+      <br>
+      Here we give the codes and reports of five experiments of Digital Communications co-lectured by <a href="http://staff.ustc.edu.cn/~wyzhou/"> Zhou Wuyang</a> and Zhao Ming.
+      <br>
+      <a style="color: #0040ff" href="https://github.com/Hjh233/USTC_EE/blob/main/Communication.zip">Codes and reports</a>
+      </p>
+
+      <p>
+      <li><strong>Introduction to Machine Learning (210709)</strong>
+      <br>
+      Here we give the codes and answers of some homework of the course lectured by <a href="https://miralab.ai/people/jie-wang/"> Wang Jie</a>.
+      <br>
+      <a style="color: #0040ff" href="https://github.com/Hjh233/USTC_EE/blob/main/ML.zip">Codes and answers</a>
+      </p>
+
+      </ol>
+
+    </p>
+  </div>
+
+<!-- The Services Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="ta">
+    <h2>TA Experience</h2>
+      <p><li> TA of Linear Algebra of MATH.1009.03.(TBD). Course notes will be updated in 2021FA if chosen. </p>
+  </div>
+
+  <!-- The Awards Section -->
+  <div class="w3-container w3-padding-32" id="award">
+    <h2>Awards</h2>
+    <p><li> 2020, Huawei Award Scholarship</p>      
+    <p><li> 2019, Silver Award Scholarship, USTC</p>               
+    <p><li> 2018, Silver Award Scholarship, USTC</p>               
+         
+
+  </div>  
+
+  <div class="w3-light-grey w3-center w3-padding-24">
+
+    Special thanks to <a href = "https://www.wangyunhe.site/">Yunhe Wang</a> for the website's <a href="https://github.com/YunheWang/HomePage">source code</a>. </br>
+
+  <!-- Default Statcounter code for Yunhe Wang's Homepage
+  https://www.wangyunhe.site -->
+  
+  <!--
+  No.
+  <script type="text/javascript">
+  var sc_project=12347113; 
+  var sc_invisible=0; 
+  var sc_security="21aca5d1"; 
+  var sc_https=1; 
+  var scJsHost = "https://";
+  document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script> Visitor Since Jun 2020. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  -->
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+  StatCounter" href="https://statcounter.com/" target="_blank"><img
+  class="statcounter" src="https://c.statcounter.com/12347113/0/21aca5d1/0/"
+  alt="Web Analytics Made Easy - StatCounter"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+  </div>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
